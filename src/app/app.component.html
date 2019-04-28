@@ -1,0 +1,32 @@
+<div class="control-section">
+    <div id="wrapper">
+        <div class="col-lg-12 col-sm-12 col-md-12" id="sidebar-section">
+            <!--header-section -->
+            <div class="header-section dock-menu" id="header">
+                <ul class="header-list">
+                    <li id="hamburger" class="icon-menu icon list" (click)="openClick()"></li>
+                    <input type="text" placeholder="Search..." class="search-icon list">
+                    <li class="right-header list dashboard" routerLink="/dashboard">Dashboard</li>
+                </ul>
+            </div>
+            <!--end of header-section -->
+            <!-- sidebar element -->
+            <ejs-sidebar id="sidebar-menu" class="dock-menu" #sidebarMenuInstance [enableDock]='enableDock' [width]='width'
+                [dockSize]='dockSize' [mediaQuery]='mediaQuery' [target]='target'>
+                <div class="main-menu">
+                    <!-- Menu element -->
+                    <ejs-menu [items]='menuItems' orientation='Vertical' cssClass='dock-menu'></ejs-menu>
+                </div>
+            </ejs-sidebar>
+            <!-- end of sidebar element -->
+
+            <!-- main-content -->
+            <div class="main-content" id="maintext">
+                <div class="sidebar-menu-content">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+            <!-- end of main-content -->
+        </div>
+    </div>
+</div>

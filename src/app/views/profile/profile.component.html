@@ -1,0 +1,137 @@
+<div class="p-grid p-nogutter p-justify-center">
+  <div class="p-grid profile-container">
+
+    <div class="p-col-6 profile-card">
+      <p-card header="Profildaten" subheader="Ihre Profildaten" [style]="{width: '560px'}" styleClass="ui-card-shadow">
+        <p-header>
+            <img src="Card" src="assets/images/usercard.jpg">
+        </p-header>
+        <div class="p-grid">
+            <label class="p-col-4 p-nogutter">Anrede:</label>
+            <span class="p-col-8 p-nogutter">X</span>
+        </div>
+        <div class="p-grid">
+            <label class="p-col-4 p-nogutter">Vorname:</label>
+            <span class="p-col-8 p-nogutter">X</span>
+        </div>
+        <div class="p-grid">
+            <label class="p-col-4 p-nogutter">Nachname:</label>
+            <span class="p-col-8 p-nogutter">X</span>
+        </div>
+        <div class="p-grid">
+            <label class="p-col-4 p-nogutter">Geburtstag:</label>
+            <span class="p-col-8 p-nogutter">X</span>
+        </div>
+        <div class="p-grid">
+            <label class="p-col-4 p-nogutter">Email:</label>
+            <span class="p-col-8 p-nogutter">X</span>
+        </div>
+      </p-card>
+    </div>
+    
+    <div class="p-col-6 profile-card">
+      <p-card header="Unternehmensdaten" subheader="Ihre Unternehmensdaten" [style]="{width: '560px'}" styleClass="ui-card-shadow">
+        <p-header>
+          <img src="Card" src="assets/images/usercard.jpg">
+        </p-header>
+        <div class="p-grid">
+            <label class="p-col-4 p-nogutter">Unternehmen:</label>
+            <span class="p-col-8 p-nogutter">X</span>
+        </div>
+        <div class="p-grid">
+            <label class="p-col-4 p-nogutter">Ort:</label>
+            <span class="p-col-8 p-nogutter">X</span>
+        </div>
+        <div class="p-grid">
+            <label class="p-col-4 p-nogutter">PLZ:</label>
+            <span class="p-col-8 p-nogutter">X</span>
+        </div>
+        <div class="p-grid">
+            <label class="p-col-4 p-nogutter">Beruf:</label>
+            <span class="p-col-8 p-nogutter">X</span>
+        </div>
+        <div class="p-grid">
+            <label class="p-col-4 p-nogutter">Abteilung:</label>
+            <span class="p-col-8 p-nogutter">X</span>
+        </div>
+
+        <!-- <ngtemplate ngIf*="Azubi is userrole.Azubi?"> -->
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">Ausbildungsjahr:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">Datum der Anstellung:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+        <!-- </ngtemplate> -->
+      </p-card>
+    </div>
+
+  </div>
+</div>
+
+<!-- <div class="p-col-12 profile-card">
+    <p-card header="Profildaten" subheader="Ihre Profildaten" [style]="{width: '100%'}" styleClass="ui-card-shadow">
+      <p-header>
+          <img src="Card" src="assets/images/usercard.jpg">
+      </p-header>
+      <div class="p-grid p-nogutter">
+        <div class="p-col-6 p-nogutter">
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">Anrede:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">Vorname:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">Nachname:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">Geburtstag:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">Email:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+        </div>
+        
+        <div class="p-col-6 p-nogutter">
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">Unternehmen:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">Ort:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">PLZ:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">Beruf:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">Abteilung:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+
+           <ngtemplate ngIf*="Azubi is userrole.Azubi?"> 
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">Ausbildungsjahr:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+          <div class="p-grid">
+              <label class="p-col-4 p-nogutter">Datum der Anstellung:</label>
+              <span class="p-col-8 p-nogutter">X</span>
+          </div>
+        </div>
+      </div>
+    </p-card>
+  </div> -->

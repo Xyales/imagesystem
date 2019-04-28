@@ -1,0 +1,30 @@
+/* * {
+    font-family: 'Open Sans',Arial,sans-serif;
+    user-select: none;
+} */
+
+body {
+    margin:0px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+/* googlebutton */
+.google-bg {
+    background-color:#DD4B39;
+    border-color: #DD4B39;
+}
+.google-bg:hover {
+background-color:rgb(219, 45, 22);
+border-color: rgb(219, 45, 22);
+}
+
+.bha-blue {
+    background-color:#01AEFF;
+    color: white;
+}

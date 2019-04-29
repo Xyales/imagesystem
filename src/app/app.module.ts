@@ -14,36 +14,40 @@ import { RadioButtonModule, ButtonModule } from '@syncfusion/ej2-angular-buttons
 import {CardModule} from 'primeng/card';
 
 import { AppComponent } from './app.component';
-import { DashboardComponent } from './views/dashboard/dashboard.component';
 import { SettingsComponent } from './views/settings/settings.component';
 import { ProfileComponent } from './views/profile/profile.component';
-import { ExportComponent } from './views/export/export.component';
-import { UserlistComponent } from './views/userlist/userlist.component';
-import { ReportlistComponent } from './views/reportlist/reportlist.component';
-import { ReportcalendarComponent } from './views/reportcalendar/reportcalendar.component';
+import { BaseComponent } from './views/base/base.component';
+import { ImageComponent } from './views/image/image.component';
+import { UploadComponent } from './views/upload/upload.component';
+import { LoginComponent } from './auth/login/login.component';
+import { RegisterComponent } from './auth/register/register.component';
+import { ForgotpasswordComponent } from './auth/forgotpassword/forgotpassword.component';
+import { VerifyComponent } from './auth/verify/verify.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent,
     SettingsComponent,
     ProfileComponent,
-    ExportComponent,
-    UserlistComponent,
-    ReportlistComponent,
-    ReportcalendarComponent
+    BaseComponent,
+    ImageComponent,
+    UploadComponent,
+    LoginComponent,
+    RegisterComponent,
+    ForgotpasswordComponent,
+    VerifyComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    SidebarModule, 
-    BrowserModule, 
-    RadioButtonModule, 
-    MenuAllModule, 
-    DropDownListModule, 
-    ButtonModule, 
-    TreeViewAllModule, 
+    BrowserModule,
+    SidebarModule,
+    RadioButtonModule,
+    MenuAllModule,
+    DropDownListModule,
+    ButtonModule,
+    TreeViewAllModule,
     ListViewAllModule,
     CardModule
   ],
